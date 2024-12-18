@@ -22,7 +22,7 @@ int main() {
             commission = 255.00f + 0.0009f * trade;
         }
         if (commission < 39.00f) {
-            commission = 39.00f; // Hoa hồng tối thiểu
+            commission = 39.00f;
         }
         printf("Commission: $%.2f\n\n", commission);
     }
